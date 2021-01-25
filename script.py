@@ -1,8 +1,14 @@
-print('commit test')
+import matplotlib.pyplot as plt
 
-print('successful')
+circle = plt.Circle((0.5, 0.5), 0.2, color='blue')
 
+fig, ax = plt.subplots()
+ax.add_patch(circle)
+ax.set_ylabel('height')
+ax.set_xlabel('length')
+ax.set_title('Draw a circle')
 
+<<<<<<< HEAD
 import test
 print(test.cv(test.r))
 
@@ -21,4 +27,6 @@ ax.set_xlabel('nanometers')
 ax.set_ylabel('nothing')
 
 
+=======
+>>>>>>> ad4f4202ec6ada10440ddb74fc8f0a53501facfa
 fig.savefig('plotcircles.png')
