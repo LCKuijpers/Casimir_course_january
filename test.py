@@ -6,3 +6,7 @@ def cv(r):
 
 print('the circumvent of the circle is', cv(r))
 
+def surf(r):
+    return 2 ** r *np.pi
+
+print('the surface area of the circle is', surf(r))
